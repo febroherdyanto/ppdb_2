@@ -1,0 +1,62 @@
+<IfModule mod_rewrite.c>
+RewriteEngine on
+
+RewriteRule ^Profil index.php?halaman=Profil-SMK [L]
+RewriteRule ^Pengumuman-PSB index.php?halaman=Pengumuman [L]
+RewriteRule ^Siswa-TO index.php?halaman=Diterima-TO [L]
+RewriteRule ^Siswa-RPL index.php?halaman=Diterima-RPL [L]
+RewriteRule ^Siswa-TPHP index.php?halaman=Diterima-TPHP [L]
+RewriteRule ^Siswa-TKR index.php?halaman=Diterima-TKR [L]
+RewriteRule ^Galeri-Foto index.php?halaman=Galeri-Foto [L]
+RewriteRule ^Kirim-Pesan index.php?halaman=Kirim-Pesan [L]
+RewriteRule ^Pembagian-Kelas index.php?halaman=Kelas [L]
+
+RewriteRule ^smk/login smk/login.php [L]
+RewriteRule ^smk/Halaman-Utama smk/index.php?halaman=Awal [L]
+RewriteRule ^smk/Semua-Data-Calon-Siswa smk/index.php?halaman=Data-Siswa [L]
+RewriteRule ^smk/Calon-Siswa-TO smk/index.php?halaman=TO [L]
+RewriteRule ^smk/Calon-Siswa-RPL smk/index.php?halaman=RPL [L]
+RewriteRule ^smk/Calon-Siswa-TPHP smk/index.php?halaman=TPHP [L]
+RewriteRule ^smk/Calon-Siswa-TSM smk/index.php?halaman=TSM [L]
+
+Options All -Indexes
+
+</IfModule>
+# DO NOT REMOVE THIS LINE AND THE LINES BELOW ERRORPAGEID:eparap
+ErrorDocument 404 /404.html
+# DO NOT REMOVE THIS LINE AND THE LINES ABOVE eparap:ERRORPAGEID
+
+
+# DO NOT REMOVE THIS LINE AND THE LINES BELOW ERRORPAGEID:yTequM
+ErrorDocument 403 /403.html
+# DO NOT REMOVE THIS LINE AND THE LINES ABOVE yTequM:ERRORPAGEID
+
+
+# DO NOT REMOVE THIS LINE AND THE LINES BELOW ERRORPAGEID:Dumyvu
+ErrorDocument 500 /500.html
+# DO NOT REMOVE THIS LINE AND THE LINES ABOVE Dumyvu:ERRORPAGEID
+
+# BEGIN Expire headers
+
+<ifModule mod_expires.c>
+ExpiresActive On
+ExpiresDefault "access plus 5 seconds"
+ExpiresByType image/x-icon "access plus 2592000 seconds"
+ExpiresByType image/jpeg "access plus 2592000 seconds"
+ExpiresByType image/png "access plus 2592000 seconds"
+ExpiresByType image/gif "access plus 2592000 seconds"
+ExpiresByType application/x-shockwave-flash "access plus 2592000 seconds"
+ExpiresByType text/css "access plus 604800 seconds"
+
+ExpiresByType text/javascript "access plus 216000 seconds"
+
+ExpiresByType application/javascript "access plus 216000 seconds"
+
+ExpiresByType application/x-javascript "access plus 216000 seconds"
+ExpiresByType text/html "access plus 600 seconds"
+ExpiresByType application/xhtml+xml "access plus 600 seconds"
+
+</ifModule>
+# END Expire headers
+
+

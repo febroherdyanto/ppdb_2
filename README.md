@@ -21,7 +21,8 @@ In the New Student Admission Information System (Wave 2), SMK Negeri 1 Mejayan h
 * Print / Export to Excel (Announcement Received) per Study Program
 
 <hr>
-## Credentials URL
+
+## Credentials URL 
 > Admin Page
 > ppdb_2/smk/
 > * Username : bima

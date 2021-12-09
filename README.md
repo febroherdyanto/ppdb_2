@@ -22,7 +22,7 @@ In the New Student Admission Information System (Wave 2), SMK Negeri 1 Mejayan h
 
 <hr>
 
-## Credentials URL 
+## Credentials URL <br>
 > Admin Page
 > ppdb_2/smk/
 > * Username : bima

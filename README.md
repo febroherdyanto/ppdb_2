@@ -19,3 +19,10 @@ In the New Student Admission Information System (Wave 2), SMK Negeri 1 Mejayan h
 * Display of prospective students who have been accepted
 * Print Card / Registration form
 * Print / Export to Excel (Announcement Received) per Study Program
+
+<hr>
+## Credentials URL
+> Admin Page
+> ppdb_2/smk/
+> * Username : bima
+> * Password : bima
